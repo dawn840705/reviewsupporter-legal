@@ -1,0 +1,13 @@
+{
+  "_comment": "리뷰를 부탁해 — 어댑터 셀렉터 원격설정. 네이버 주문내역 DOM 변경 시 이 파일만 고치면 앱 빌드 없이 전 사용자에 반영. 운영법: 앱 repo의 09_원격셀렉터_운영가이드.md. 받는 건 셀렉터 문자열뿐 — 앱은 절대 eval 안 함. 수정 시 version을 올릴 것.",
+  "version": 1,
+  "naver": {
+    "productAnchor": "a[data-shp-area=\"ordrhist.pd\"]",
+    "cardContainers": ["[class*=\"order_card\"]", "[class*=\"purchase_item\"]"],
+    "statusEl": "[class*=\"OrderProduct_status\"], [class*=\"_status__\"]",
+    "dateEl": "[class*=\"_date__\"]",
+    "taskButton": "[data-shp-area=\"ordrhist.taskselect\"]",
+    "detailLink": "a[data-shp-area=\"ordrhist.detail\"]",
+    "bundleExpand": "[data-shp-area=\"ordrhist.openb\"]"
+  }
+}
