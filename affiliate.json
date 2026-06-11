@@ -1,0 +1,26 @@
+{
+  "_comment": "리뷰를 부탁해 - 어필리에이트 추천 오퍼. 앱이 EXPO_PUBLIC_AFFILIATE_URL로 이 파일을 읽어 홈 '추천(광고)' 섹션에 노출. 링크 교체는 빌드 없이 이 파일만 수정. 적립 동선과 분리된 광고로만 노출(쿠팡 리워드 약관 회피).",
+  "offers": [
+    {
+      "id": "gmarket-home",
+      "title": "G마켓 바로가기",
+      "subtitle": "지금부터의 마켓",
+      "url": "https://lase.kr/click.php?m=gmarket&a=A100705176&l=0000",
+      "merchant": "gmarket"
+    },
+    {
+      "id": "gmarket-best",
+      "title": "G마켓 베스트 상품",
+      "subtitle": "인기 특가",
+      "url": "https://lase.kr/click.php?m=gmarket&a=A100705176&l=9999&l_cd1=3&l_cd2=0&tu=https%3A%2F%2Fitem.gmarket.co.kr%2FItem%3Fspm%3Dgmktpc.besthome.0.0.444b4fc7qJr3ra%26goodscode%3D4707079285",
+      "merchant": "gmarket"
+    },
+    {
+      "id": "gmarket-best-2",
+      "title": "G마켓 추천 상품",
+      "subtitle": "베스트 특가",
+      "url": "https://lase.kr/click.php?m=gmarket&a=A100705176&l=9999&l_cd1=3&l_cd2=0&tu=https%3A%2F%2Fitem.gmarket.co.kr%2FItem%3Fspm%3Dgmktpc.besthome.0.0.444b4fc7Strmgk%26goodscode%3D4630561171",
+      "merchant": "gmarket"
+    }
+  ]
+}
