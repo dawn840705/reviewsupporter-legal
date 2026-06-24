@@ -1,0 +1,41 @@
+name: Update affiliate.json (오퍼월 쇼핑적립)
+
+# 하루 1회 LinkPrice 오퍼월 API에서 머천트·딥링크를 받아 affiliate.json 갱신.
+# 오퍼월 미설정(code:-6)/머천트 0이면 스크립트가 no-op → 기존 수동 오퍼 보존.
+# 수동 실행: Actions 탭 → 이 워크플로 → "Run workflow".
+
+on:
+  schedule:
+    - cron: '0 18 * * *'   # UTC 18:00 = KST 03:00 (하루 1회)
+  workflow_dispatch:        # 수동 트리거
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-affiliate
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 오퍼월 → affiliate.json 빌드
+        run: python3 scripts/build_affiliate.py
+
+      - name: JSON 유효성 검증
+        run: python3 -m json.tool affiliate.json > /dev/null
+
+      - name: 변경 있으면 커밋·푸시
+        run: |
+          if git diff --quiet -- affiliate.json; then
+            echo "변경 없음 — 푸시 생략"
+            exit 0
+          fi
+          git config user.name "affiliate-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add affiliate.json
+          git commit -m "chore: 오퍼월 자동 갱신 affiliate.json [skip ci]"
+          git push
