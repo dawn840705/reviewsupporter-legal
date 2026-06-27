@@ -1,41 +1,47 @@
 #!/usr/bin/env python3
-"""LinkPrice 오퍼월(쇼핑적립) API → affiliate.json 자동 생성.
+"""LinkPrice 리얼 핫딜 API → affiliate.json 하이브리드 생성.
 
-동작:
-  1. 오퍼월 메인 호출로 머천트 목록(offerwall_cards) 획득
-  2. 머천트별 상세 호출로 click_url(실제 제휴 딥링크) 획득
-  3. 우리 앱(모바일 RN Linking) 부적합 머천트(PC전용 등) 필터
-  4. AffiliateOffer 형식으로 변환해 affiliate.json 덮어쓰기
+구조(하이브리드, 2026-06-28):
+  affiliate.json = [수동 고정 오퍼(manual_offers.json)] + [핫딜 API 자동 오퍼]
+  - 수동 고정 = 식품(컬리·CJ) 등 커미션·궁합 좋은 큐레이션. **항상 상단 고정**.
+  - 자동 = LinkPrice 리얼 핫딜 API의 MD 큐레이션 상품(딥링크 click_url 완비). 고정 아래로 채움.
+  => 오퍼월/스크래핑 불필요. 공식 API라 약관 클린·머천트 패턴 LinkPrice가 관리.
 
-안전장치(가장 중요):
-  - 오퍼월 미설정(code != 0, 예: -6) → 기존 affiliate.json 보존(no-op)
-  - 머천트 0 / 필터 후 유효 오퍼 0 → 보존(no-op)
-  - 호출 실패 → 보존(no-op)
-  => 오퍼월이 켜지기 전까지는 수동 오퍼(컬리·CJ)가 그대로 유지된다.
+핫딜 API(공식):
+  GET https://api.linkprice.com/ci/hotdeal/data/{a_id}
+  → [{merchant_id, product_code, product_name, category, product_image, click_url(완성 딥링크),
+      promotional_text, commission_rate, ...}]  (30분마다 갱신, 종료 상품은 예고없이 제거)
+  ⚠️ commission_rate는 '우리 수익'이지 유저 적립이 아님 → 카드에 노출 안 함(적립 동선 분리).
+
+품질 필터:
+  - click_url 기준 dedup(핫딜은 동일 상품을 카테고리별로 중복 반환)
+  - SKU 코드형 상품명(한글·공백 없는 코드, 예 'DRB00087') 제외
+  - 모바일 부적합 머천트(gmarket=모바일 수익 0 등) 블록
+
+안전장치:
+  - 핫딜 호출 실패/에러/0건 → 자동 오퍼 없이 고정 오퍼만 출력(식품 보존)
+  - 고정·자동 둘 다 0 → no-op(기존 affiliate.json 보존)
 
 규약 근거: ReviewSupporter/reports/어필리에이트_머천트_규약_종합_LinkPrice20_20260624.md
 """
 import json
 import os
 import sys
-import urllib.parse
 import urllib.request
 
 A_ID = "A100705176"          # 우리 LinkPrice 어필리에이트 코드
-U_ID = "rs_auto"             # 익명 고정(무리워드 모델 — 유저별 적립 안 줌)
-BASE = "https://api.linkprice.com/offerwall"
-OUT = os.path.join(os.path.dirname(__file__), "..", "affiliate.json")
-MAX_OFFERS = 10              # AffiliateSection 코드 상한과 일치
+HOTDEAL = "https://api.linkprice.com/ci/hotdeal/data/%s" % A_ID
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+OUT = os.path.join(ROOT, "affiliate.json")
+MANUAL = os.path.join(ROOT, "manual_offers.json")
+MAX_OFFERS = 10              # AffiliateSection 코드 상한과 일치(고정+자동 합산)
 TIMEOUT = 20
 
-# 우리 앱은 Linking.openURL로 모바일웹/머천트앱을 연다.
-# "실적 미인정" 머천트는 클릭돼도 수익 0 → 오퍼에서 제외.
+# "실적 미인정/모바일 수익 0" 머천트는 클릭돼도 수익 0 → 오퍼에서 제외.
 # (근거=어필리에이트_머천트_규약_종합_LinkPrice20)
 APP_BLOCKLIST = {
-    "gmarket",   # PC만 인정 → 모바일 앱 수익 0
+    "gmarket",   # 광고효과 0일 + 모바일 앱 수익 0 → 제외. 식품(복숭아 등)이 여기 묶여도 보수적으로 차단.
 }
-# 참고(유지하되 주의): hmall=iOS미인정, lotteon/yes24/kbbook=앱미인정이나
-# 모바일웹 fallback 시 인정 가능 → 블록하지 않음. 손실 보이면 위 set에 추가.
 
 
 def fetch(url):
@@ -44,81 +50,122 @@ def fetch(url):
         return json.loads(r.read().decode("utf-8"))
 
 
-def build_offers(cards):
+def load_manual():
+    """수동 고정 오퍼 로드. 없거나 깨지면 빈 목록(자동만으로 진행)."""
+    try:
+        with open(MANUAL, encoding="utf-8") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        print("[info] manual_offers.json 없음 → 고정 오퍼 0")
+        return []
+    except Exception as e:
+        print("[warn] manual_offers.json 파싱 실패: %s → 고정 오퍼 0" % e, file=sys.stderr)
+        return []
+    raw = data.get("offers") if isinstance(data, dict) else None
+    if not isinstance(raw, list):
+        return []
     offers = []
-    for c in cards:
-        mid = c.get("merchant_id")
+    for o in raw:
+        if not isinstance(o, dict):
+            continue
+        title = (o.get("title") or "").strip()
+        url = o.get("url") or ""
+        if not title or not isinstance(url, str) or not url.startswith("http"):
+            continue
+        offers.append(o)
+    return offers
+
+
+def is_junk_name(name):
+    """SKU 코드형 상품명(한글·공백 없는 영문숫자 코드, 예 'DRB00087') = 광고로 부적합 → 제외."""
+    if len(name) < 4:
+        return True
+    has_korean = any("가" <= c <= "힣" for c in name)
+    has_space = " " in name
+    return not has_korean and not has_space
+
+
+def fetch_hotdeal():
+    """핫딜 상품 목록. 실패/에러(dict)/리스트 아님이면 빈 목록(자동 생략)."""
+    try:
+        data = fetch(HOTDEAL)
+    except Exception as e:
+        print("[info] 핫딜 API 호출 실패: %s → 자동 오퍼 생략" % e)
+        return []
+    if isinstance(data, dict):  # 에러 응답 {"error-message": ...}
+        print("[info] 핫딜 API 에러: %s → 자동 오퍼 생략" % data.get("error-message"))
+        return []
+    if not isinstance(data, list):
+        return []
+    return data
+
+
+def build_auto_offers(products, slots):
+    """핫딜 상품 → 자동 오퍼. dedup·정크명·블록 필터, 최대 slots개."""
+    offers = []
+    if slots <= 0:
+        return offers
+    seen_url = set()
+    for p in products:
+        if not isinstance(p, dict):
+            continue
+        mid = (p.get("merchant_id") or "").strip()
         if not mid or mid in APP_BLOCKLIST:
             continue
-        det_url = "%s/%s/detail?%s" % (
-            BASE, A_ID,
-            urllib.parse.urlencode({"mode": "json", "u_id": U_ID, "m_id": mid}),
-        )
-        try:
-            det = fetch(det_url)
-        except Exception as e:
-            print("[warn] %s 상세 호출 실패: %s" % (mid, e), file=sys.stderr)
+        click = p.get("click_url") or ""
+        name = (p.get("product_name") or "").strip()
+        if not isinstance(click, str) or not click.startswith("http") or not name:
             continue
-        click = det.get("click_url")
-        if not click or not click.startswith("http"):
-            print("[warn] %s click_url 없음 → 제외" % mid, file=sys.stderr)
+        if click in seen_url or is_junk_name(name):
             continue
-        name = (c.get("site_name") or mid).strip()
-        comm = (c.get("max_commission") or "").strip()
+        # 이미지 없는 오퍼는 제외(형 요청 — 회색박스 광고 안 띄움).
+        img = p.get("product_image") or ""
+        if not (isinstance(img, str) and img.startswith("http")):
+            continue
+        seen_url.add(click)
+        # subtitle(표시)은 생략 — category가 머천트 기준이라 상품과 어긋남(예: wconcept 냉동볶음밥에 '패션·뷰티').
+        # 단 category는 별도 필드로 실어 보낸다 → 앱 온디바이스 맞춤정렬에 사용(표시 X, 정렬 O).
         offer = {
-            "id": "lp-%s" % mid,
+            "id": "lp-%s-%s" % (mid, (p.get("product_code") or len(offers))),
             "title": name,
-            "subtitle": ("최대 적립 %s" % comm) if comm else "쇼핑적립",
             "url": click,
             "merchant": mid,
+            "imageUrl": img,
         }
-        banner = c.get("banner_url")
-        if banner and banner.startswith("http"):
-            offer["imageUrl"] = banner
+        cat = (p.get("category") or "").strip()
+        if cat:
+            offer["category"] = cat
         offers.append(offer)
-        if len(offers) >= MAX_OFFERS:
+        if len(offers) >= slots:
             break
     return offers
 
 
 def main():
-    main_url = "%s/%s?%s" % (
-        BASE, A_ID, urllib.parse.urlencode({"mode": "json", "u_id": U_ID})
-    )
-    try:
-        data = fetch(main_url)
-    except Exception as e:
-        print("[skip] 오퍼월 호출 실패: %s → 기존 affiliate.json 보존" % e, file=sys.stderr)
-        return 0
+    pinned = load_manual()
+    products = fetch_hotdeal()
+    auto = build_auto_offers(products, MAX_OFFERS - len(pinned))
 
-    code = data.get("code") if isinstance(data, dict) else None
-    if code is not None and code != 0:
-        print("[skip] 오퍼월 미설정 (code=%s, msg=%s) → 기존 유지" % (code, data.get("msg")))
-        return 0
-
-    cards = (data.get("offerwall_cards") or []) if isinstance(data, dict) else []
-    if not cards:
-        print("[skip] 머천트 0 → 기존 affiliate.json 보존")
-        return 0
-
-    offers = build_offers(cards)
-    if not offers:
-        print("[skip] 필터 후 유효 오퍼 0 → 기존 유지")
+    merged = (pinned + auto)[:MAX_OFFERS]
+    if not merged:
+        print("[skip] 고정·자동 오퍼 모두 0 → 기존 affiliate.json 보존")
         return 0
 
     out = {
         "_comment": (
-            "AUTO-GENERATED by scripts/build_affiliate.py (LinkPrice 오퍼월 API, 하루 1회). "
-            "수동 편집은 다음 cron에 덮어써짐. 머천트 필터 근거=ReviewSupporter/reports/"
-            "어필리에이트_머천트_규약_종합_LinkPrice20_20260624.md"
+            "AUTO-GENERATED by scripts/build_affiliate.py (하이브리드: manual_offers.json 고정 + "
+            "LinkPrice 리얼 핫딜 API 자동, cron). ★직접 편집 금지 — 수동 오퍼는 manual_offers.json을 "
+            "수정. 머천트 필터 근거=ReviewSupporter/reports/어필리에이트_머천트_규약_종합_LinkPrice20_20260624.md"
         ),
-        "offers": offers,
+        "offers": merged,
     }
-    path = os.path.abspath(OUT)
-    with open(path, "w", encoding="utf-8") as f:
+    with open(OUT, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
         f.write("\n")
-    print("[ok] %d개 오퍼 생성: %s" % (len(offers), ", ".join(o["merchant"] for o in offers)))
+    print("[ok] 고정 %d + 자동 %d = %d개: %s" % (
+        len(pinned), len(auto), len(merged),
+        ", ".join(o.get("merchant", "?") for o in merged),
+    ))
     return 0
 
 

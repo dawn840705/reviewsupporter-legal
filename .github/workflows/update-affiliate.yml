@@ -1,12 +1,12 @@
-name: Update affiliate.json (오퍼월 쇼핑적립)
+name: Update affiliate.json (리얼 핫딜)
 
-# 하루 1회 LinkPrice 오퍼월 API에서 머천트·딥링크를 받아 affiliate.json 갱신.
-# 오퍼월 미설정(code:-6)/머천트 0이면 스크립트가 no-op → 기존 수동 오퍼 보존.
-# 수동 실행: Actions 탭 → 이 워크플로 → "Run workflow".
+# 6시간마다 affiliate.json 재생성: manual_offers.json(고정 식품 오퍼) + LinkPrice 리얼 핫딜 API 자동.
+# 핫딜 API는 종료 상품을 예고없이 제거 → 죽은 딥링크 줄이려 자주 갱신. 호출 실패/0건이면 고정 오퍼만 보존.
+# ★수동 오퍼 편집은 affiliate.json이 아니라 manual_offers.json. 수동 실행: Actions 탭 → "Run workflow".
 
 on:
   schedule:
-    - cron: '0 18 * * *'   # UTC 18:00 = KST 03:00 (하루 1회)
+    - cron: '0 */6 * * *'   # 6시간마다(링크 신선도 — 핫딜은 30분마다 갱신/상품 제거)
   workflow_dispatch:        # 수동 트리거
 
 permissions:
@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: 오퍼월 → affiliate.json 빌드
+      - name: 핫딜 → affiliate.json 빌드
         run: python3 scripts/build_affiliate.py
 
       - name: JSON 유효성 검증
@@ -37,5 +37,5 @@ jobs:
           git config user.name "affiliate-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add affiliate.json
-          git commit -m "chore: 오퍼월 자동 갱신 affiliate.json [skip ci]"
+          git commit -m "chore: 핫딜 자동 갱신 affiliate.json [skip ci]"
           git push
