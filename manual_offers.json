@@ -1,20 +1,4 @@
 {
-  "_comment": "수동 큐레이션 '고정' 오퍼(식품=컬리·CJ, 커미션·궁합↑). build_affiliate.py가 이 목록을 항상 상단에 고정하고, 오퍼월 자동 오퍼는 그 아래로 채운다(하이브리드). ★여기를 편집하면 다음 cron(또는 수동 실행)에 affiliate.json에 반영됨 — affiliate.json은 자동 생성물이라 직접 편집 금지. 규정: 컬리 과장표현 금지·CJ 연예인 이미지 금지·자체 캐시백 금지. title/subtitle에 food 사전 단어(반찬·간식·곰탕·과일 등) 포함해 맞춤정렬 활성화.",
-  "offers": [
-    {
-      "id": "kurly-fresh",
-      "title": "컬리 신선식품·반찬·간식 모음",
-      "subtitle": "샛별배송",
-      "imageUrl": "https://res.kurly.com/images/marketkurly/logo/logo_sns_marketkurly.jpg",
-      "url": "https://lpweb.kr/click.php?m=kurly&a=A100705176&l=0000",
-      "merchant": "kurly"
-    },
-    {
-      "id": "cj-sobaba",
-      "title": "소바바 순살치킨 4종 플래터",
-      "subtitle": "CJ더마켓 간편식",
-      "url": "https://click.linkprice.com/click.php?m=cjbrand&a=A100705176&l=9999&l_cd1=3&l_cd2=q&tu=https%3A%2F%2Fm.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3D40229308%26spclCtgrId%3D%26ctgrId%3D%26plnId%3D300001%26areaNum%3D1",
-      "merchant": "cjbrand"
-    }
-  ]
+  "_comment": "수동 큐레이션 '고정' 오퍼(항상 상단 고정). 현재 비어있음 — 수동 딥링크(컬리·CJ)는 제대로 작동 안 해 제거(형 결정 2026-06-28). 어필리에이트는 LinkPrice 리얼 핫딜 API 자동 소싱만 사용. ★나중에 검증된 고정 오퍼를 넣고 싶으면 여기 offers에 추가(반드시 imageUrl 포함 — 이미지 없으면 앱이 노출 안 함). 규정: 컬리 과장표현 금지·CJ 연예인 이미지 금지·자체 캐시백 금지.",
+  "offers": []
 }

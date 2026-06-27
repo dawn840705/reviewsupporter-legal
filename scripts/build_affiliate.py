@@ -118,18 +118,23 @@ def build_auto_offers(products, slots):
             continue
         if click in seen_url or is_junk_name(name):
             continue
+        # 이미지 없는 오퍼는 제외(형 요청 — 회색박스 광고 안 띄움).
+        img = p.get("product_image") or ""
+        if not (isinstance(img, str) and img.startswith("http")):
+            continue
         seen_url.add(click)
-        # subtitle 생략: 핫딜 category는 머천트 기준이라 상품과 어긋남(예: wconcept 냉동볶음밥에 '패션·뷰티').
-        #   잘못된 라벨로 신뢰 깎느니 제목+이미지만. 매칭은 product_name(실단어)으로 충분.
+        # subtitle(표시)은 생략 — category가 머천트 기준이라 상품과 어긋남(예: wconcept 냉동볶음밥에 '패션·뷰티').
+        # 단 category는 별도 필드로 실어 보낸다 → 앱 온디바이스 맞춤정렬에 사용(표시 X, 정렬 O).
         offer = {
             "id": "lp-%s-%s" % (mid, (p.get("product_code") or len(offers))),
             "title": name,
             "url": click,
             "merchant": mid,
+            "imageUrl": img,
         }
-        img = p.get("product_image") or ""
-        if isinstance(img, str) and img.startswith("http"):
-            offer["imageUrl"] = img
+        cat = (p.get("category") or "").strip()
+        if cat:
+            offer["category"] = cat
         offers.append(offer)
         if len(offers) >= slots:
             break
