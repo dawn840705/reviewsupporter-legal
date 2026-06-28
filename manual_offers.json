@@ -1,5 +1,5 @@
 {
-  "_comment": "수동 큐레이션 '고정' 오퍼(항상 상단). APP 인정 머천트만 넣을 것(2026-06-28 조사: 핫딜 피드의 wconcept·kbbook은 APP 미인정=수익0이라 블록). 컬리=APP인정·딥링크불가→메인링크만. CJ더마켓=APP인정·쿠키30일(추가 시 상품URL→딥링크, 연예인 이미지 금지·imageUrl 필수). 규정: 컬리 과장표현 금지·자체 캐시백 금지.",
+  "_comment": "수동 큐레이션 '고정' 오퍼(항상 상단). APP 인정 머천트만(2026-06-28 조사: 핫딜의 wconcept·kbbook=APP미인정→블록). 컬리=APP인정·딥링크불가→메인링크. CJ더마켓=APP인정·쿠키30일(딥링크 가능, 연예인 이미지 금지). 메인링크 고정이라 무인 운영(갱신 불필요). 규정: 컬리 과장표현 금지·자체 캐시백 금지.",
   "offers": [
     {
       "id": "kurly-fresh",
@@ -8,6 +8,14 @@
       "imageUrl": "https://res.kurly.com/images/marketkurly/logo/logo_sns_marketkurly.jpg",
       "url": "https://lpweb.kr/click.php?m=kurly&a=A100705176&l=0000",
       "merchant": "kurly"
+    },
+    {
+      "id": "cj-market",
+      "title": "CJ더마켓 비비고·간편식 모음",
+      "subtitle": "반찬·국물요리·신선식품",
+      "imageUrl": "https://img.cjthemarket.com/cjom/mobile/images/common/default_logo.png",
+      "url": "https://click.linkprice.com/click.php?m=cjbrand&a=A100705176&l=9999&l_cd1=3&l_cd2=q&tu=https%3A%2F%2Fm.cjthemarket.com%2F",
+      "merchant": "cjbrand"
     }
   ]
 }
