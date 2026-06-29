@@ -1,5 +1,5 @@
 {
-  "_comment": "수동 큐레이션 '고정' 오퍼(항상 상단). APP 인정 머천트만(2026-06-28 조사: 핫딜의 wconcept·kbbook=APP미인정→블록). 컬리=APP인정·딥링크불가→메인링크. CJ더마켓=APP인정·쿠키30일(딥링크 가능, 연예인 이미지 금지). 메인링크 고정이라 무인 운영(갱신 불필요). 규정: 컬리 과장표현 금지·자체 캐시백 금지.",
+  "_comment": "수동 큐레이션 '고정' 오퍼(항상 상단). APP 인정 머천트만(2026-06-28 조사: 핫딜의 wconcept·kbbook=APP미인정→블록). 컬리=APP인정·딥링크불가→메인링크. CJ더마켓=APP인정·쿠키30일(딥링크 가능, 연예인 이미지 금지). 야놀자(NOL)=APP만 인정·2.8%·메인링크(lpweb.kr, 302검증 2026-06-29 nol.yanolja.com 앱딥링크 yanoljamotel://Home, 실적코드 포함). 메인링크 고정이라 무인 운영(갱신 불필요). 규정: 컬리 과장표현 금지·자체 캐시백 금지.",
   "offers": [
     {
       "id": "kurly-fresh",
@@ -16,6 +16,14 @@
       "imageUrl": "https://img.cjthemarket.com/cjom/mobile/images/common/default_logo.png",
       "url": "https://click.linkprice.com/click.php?m=cjbrand&a=A100705176&l=9999&l_cd1=3&l_cd2=q&tu=https%3A%2F%2Fm.cjthemarket.com%2F",
       "merchant": "cjbrand"
+    },
+    {
+      "id": "yanolja-nol",
+      "title": "야놀자 NOL 숙소·여행·레저 특가",
+      "subtitle": "호텔·펜션·놀거리 티켓",
+      "imageUrl": "https://yaimg.yanolja.com/joy/sunny/static/images/nol/nol_og_1200x600.png",
+      "url": "https://lpweb.kr/click.php?m=yanolja&a=A100705176&l=0000",
+      "merchant": "yanolja"
     }
   ]
 }
