@@ -32,6 +32,22 @@
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
       "category": "가전·디지털"
+    },
+    {
+      "id": "lp-yes24-1080979",
+      "title": "개념원리 공통수학 2 (2026년용)",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F123759748",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/123759748/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1080980",
+      "title": "쎈 고등 공통수학2 (2026년)",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F177284738",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/177284738/xl",
+      "category": "도서·여행"
     }
   ]
 }
