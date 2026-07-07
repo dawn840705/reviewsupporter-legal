@@ -26,6 +26,14 @@
       "merchant": "yanolja"
     },
     {
+      "id": "lp-yes24-1082894",
+      "title": "강원국의 책쓰기 수업",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F148571835",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/148571835/xl",
+      "category": "도서·여행"
+    },
+    {
       "id": "lp-himart-1082687",
       "title": "[포토리뷰 네페10,000원 증정][PEIKOREA] SAPPHIRE 라데온 RX 9070 XT NITRO+ OC D6 16GB",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0066712498",
@@ -34,11 +42,27 @@
       "category": "가전·디지털"
     },
     {
-      "id": "lp-yes24-1082689",
+      "id": "lp-yes24-1082897",
       "title": "smart(スマ-ト) 2026年9月號",
       "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F190236796",
       "merchant": "yes24",
       "imageUrl": "https://image.yes24.com/goods/190236796/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1082898",
+      "title": "Disney/Pixar Toy Story 5 My Busy Books",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F189792825",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/189792825/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1082900",
+      "title": "Disney Zootopia 2 My Busy Books",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F159170348",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/159170348/xl",
       "category": "도서·여행"
     }
   ]
