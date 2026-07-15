@@ -26,19 +26,51 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-himart-1089062",
-      "title": "[1+1기획]14인치(35cm) 베이직 기계식 선풍기 SIF-TS14HM (5엽 날개, 3단계 풍속, 타이머)",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0067323438",
+      "id": "lp-himart-1089555",
+      "title": "냉동고 A202S.AKOR [200L]",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0018722542",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
       "category": "가전·디지털"
     },
     {
-      "id": "lp-yes24-1089250",
+      "id": "lp-yes24-1089557",
       "title": "강원국의 책쓰기 수업",
       "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F148571835",
       "merchant": "yes24",
       "imageUrl": "https://image.yes24.com/goods/148571835/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1089560",
+      "title": "어떻게 살아낼 것인가",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F193453141",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/193453141/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1089561",
+      "title": "유럽 도시 기행 3",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F193040623",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/193040623/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1089562",
+      "title": "Active Korean 1 Student Book",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F114998222",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/114998222/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1089563",
+      "title": "Active Korean 1 Workbook",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F114947393",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/114947393/xl",
       "category": "도서·여행"
     }
   ]
