@@ -26,52 +26,12 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-lfmall-1096358",
-      "title": "[스테디셀러] 블랙 단색 소가죽 반지갑",
-      "url": "https://click.linkprice.com/click.php?m=lfmall&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=https%3A%2F%2Fwww.lfmall.co.kr%2Fproduct.do%3Fcmd%3DgetProductDetail%26PROD_CD%3DWUWA5E151BK",
-      "merchant": "lfmall",
-      "imageUrl": "https://img.linkprice.com/files/glink/lfmall/20230405/000IT00000000_LFmall_logo_black12060.png",
-      "category": "패션·뷰티"
-    },
-    {
-      "id": "lp-himart-1096361",
+      "id": "lp-himart-1096584",
       "title": "골전도 블루투스 이어폰 샥즈 오픈런 블랙 S803BK",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0063220611",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
       "category": "가전·디지털"
-    },
-    {
-      "id": "lp-yes24-1096366",
-      "title": "요주의 인물",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F192178905",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/192178905/xl",
-      "category": "도서·여행"
-    },
-    {
-      "id": "lp-yes24-1096367",
-      "title": "신상문구점",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F153819536",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/153819536/xl",
-      "category": "도서·여행"
-    },
-    {
-      "id": "lp-yes24-1096368",
-      "title": "최유리 - EP : 머무름, 둘 [파스텔 블루   올리브 그린 컬러 10인치 Vinyl]",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F194383704",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/194383704/xl",
-      "category": "도서·여행"
-    },
-    {
-      "id": "lp-yes24-1096369",
-      "title": "니체의 초월자",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F161401496",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/161401496/xl",
-      "category": "도서·여행"
     }
   ]
 }
