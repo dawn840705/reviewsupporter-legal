@@ -26,23 +26,15 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-yes24-1104805",
-      "title": "(예약도서) Mono Max(モノマックス) 2026年10月號",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F194872245",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/194872245/xl",
-      "category": "MD’S PICK"
-    },
-    {
-      "id": "lp-himart-1104801",
-      "title": "[서린공식] Apacer DDR5-5600 CL46 (16GB)",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0058720081",
+      "id": "lp-himart-1105071",
+      "title": "에어팟 프로 (3세대, USB-C) - [MFHP4KH/A]",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0053433482",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
       "category": "MD’S PICK"
     },
     {
-      "id": "lp-himart-1104802",
+      "id": "lp-himart-1105072",
       "title": "일반세탁기 TR13WV4 (13kg, 인버터모터, 위생세탁, 화이트)",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0062975581",
       "merchant": "himart",
@@ -50,9 +42,41 @@
       "category": "가전·디지털"
     },
     {
-      "id": "lp-himart-1104803",
-      "title": "[서린공식] ADATA DDR5-5600 CL46 LANCER BLADE 블랙 서린 (32GB)",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0043213699",
+      "id": "lp-yes24-1105079",
+      "title": "세 가지 색 (6Disc, 4K + BD 렌티큘러 풀슬립 트릴로지 박스 한정판) : 블루레이",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F194478597",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/194478597/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-himart-1105073",
+      "title": "컨버터블 패키지 1도어 냉동고 A320S.AKOR [321L]",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0014795297",
+      "merchant": "himart",
+      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
+      "category": "가전·디지털"
+    },
+    {
+      "id": "lp-yes24-1105080",
+      "title": "(예약도서) Mono Max(モノマックス) 2026年10月號",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F194872245",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/194872245/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1105081",
+      "title": "스트레이 키즈 (Stray Kids) - THIS   THAT [LP VER.]",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F193459129",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/193459129/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-himart-1105074",
+      "title": "COLORFUL iGame 지포스 RTX 5080 Vulcan OC D7 16GB 피씨디렉트",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0045610296",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
       "category": "가전·디지털"
