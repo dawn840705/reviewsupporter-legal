@@ -24,6 +24,30 @@
       "imageUrl": "https://yaimg.yanolja.com/joy/sunny/static/images/nol/nol_og_1200x600.png",
       "url": "https://lpweb.kr/click.php?m=yanolja&a=A100705176&l=0000",
       "merchant": "yanolja"
+    },
+    {
+      "id": "lp-himart-1105815",
+      "title": "[세트상품] SWITCH2 본체 + 포켓몬레전드ZA Nintendo Switch2 Edition 번들 + 리듬천국미라클스타즈",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0068652565",
+      "merchant": "himart",
+      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
+      "category": "MD’S PICK"
+    },
+    {
+      "id": "lp-yes24-1105819",
+      "title": "신상문구점",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F153819536",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/153819536/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1105822",
+      "title": "소원 배달 톡",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F194754737",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/194754737/xl",
+      "category": "도서·여행"
     }
   ]
 }
