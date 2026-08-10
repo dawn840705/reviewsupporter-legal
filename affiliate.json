@@ -26,12 +26,44 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-himart-1107855",
-      "title": "[서린공식] Apacer DDR5-6000 CL38 NOX RGB 실버 패키지 (32GB(16Gx2))",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0059201414",
+      "id": "lp-yes24-1108502",
+      "title": "소원 배달 톡",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F194754737",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/194754737/xl",
+      "category": "MD’S PICK"
+    },
+    {
+      "id": "lp-himart-1108500",
+      "title": "일반냉장고 B502S53.AKOR [507L]",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0016553369",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "category": "가전·디지털"
+      "category": "MD’S PICK"
+    },
+    {
+      "id": "lp-yes24-1108504",
+      "title": "신상문구점",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F153819536",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/153819536/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1108505",
+      "title": "나만의 방",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F190272503",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/190272503/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1108507",
+      "title": "예스24 온라인 통합상품권 1만원권",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F127975461",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/127975461/xl",
+      "category": "도서·여행"
     }
   ]
 }
