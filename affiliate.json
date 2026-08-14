@@ -26,20 +26,36 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-himart-1111032",
-      "title": "[서린공식] Apacer DDR5-6000 CL38 NOX RGB 실버 패키지 (32GB(16Gx2))",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0059201414",
+      "id": "lp-himart-1111354",
+      "title": "일반냉장고 B502S53.AKOR [507L]",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0016553369",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
       "category": "가전·디지털"
     },
     {
-      "id": "lp-lfmall-1111138",
-      "title": "웨스트우드 남성 에어도트 셋업 라운드 티셔츠_WP2MTST741",
-      "url": "https://click.linkprice.com/click.php?m=lfmall&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=https%3A%2F%2Fwww.lfmall.co.kr%2Fproduct.do%3Fcmd%3DgetProductDetail%26PROD_CD%3DEK0KXX01944",
-      "merchant": "lfmall",
-      "imageUrl": "https://img.linkprice.com/files/glink/lfmall/20230405/000IT00000000_LFmall_logo_black12060.png",
-      "category": "패션·뷰티"
+      "id": "lp-yes24-1111359",
+      "title": "에너지 전환 시대의 저널리즘",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F180329640",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/180329640/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1111360",
+      "title": "AI와 미디어",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F176290751",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/176290751/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1111362",
+      "title": "신상문구점",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F153819536",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/153819536/xl",
+      "category": "도서·여행"
     }
   ]
 }
