@@ -26,20 +26,28 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-lfmall-1117180",
+      "id": "lp-lfmall-1117179",
       "title": "메종 키츠네 폭스 헤드 컴포트 폴로 블랙 PM00210KP0001-P199",
       "url": "https://click.linkprice.com/click.php?m=lfmall&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=https%3A%2F%2Fwww.lfmall.co.kr%2Fproduct.do%3Fcmd%3DgetProductDetail%26PROD_CD%3DDUHPXX00359",
       "merchant": "lfmall",
       "imageUrl": "https://img.linkprice.com/files/glink/lfmall/20230405/000IT00000000_LFmall_logo_black12060.png",
+      "category": "패션·뷰티"
+    },
+    {
+      "id": "lp-yes24-1117287",
+      "title": "★단독특가★ 4개월을 기록하다",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F62913732",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/62913732/xl",
       "category": "MD’S PICK"
     },
     {
-      "id": "lp-himart-1116758",
-      "title": "일반세탁기 TR13WV4 (13kg, 인버터모터, 위생세탁, 화이트)",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0062975581",
+      "id": "lp-himart-1117285",
+      "title": "라피타 H2 수소 아쿠아 워터 필링기 JOC-H2 JOCH2",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0044838516",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "category": "가전·디지털"
+      "category": "MD’S PICK"
     },
     {
       "id": "lp-lfmall-1117182",
