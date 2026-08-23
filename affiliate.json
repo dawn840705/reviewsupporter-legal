@@ -26,14 +26,6 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-yes24-1117767",
-      "title": "둥근 모자걸이 옷장 행거 후크 걸이",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F168530872",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/168530872/xl",
-      "category": "MD’S PICK"
-    },
-    {
       "id": "lp-himart-1117540",
       "title": "[세트상품] SWITCH2 본체 + 닌텐도 SWITCH슈퍼마리오파티잼버리",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0069712722",
@@ -42,7 +34,23 @@
       "category": "가전·디지털"
     },
     {
-      "id": "lp-yes24-1117768",
+      "id": "lp-lfmall-1117854",
+      "title": "프로쉬 독일 섬유유연제 750ml 4개 포켓 장바구니(랜덤)",
+      "url": "https://click.linkprice.com/click.php?m=lfmall&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=https%3A%2F%2Fwww.lfmall.co.kr%2Fproduct.do%3Fcmd%3DgetProductDetail%26PROD_CD%3DD68EXX00049",
+      "merchant": "lfmall",
+      "imageUrl": "https://img.linkprice.com/files/glink/lfmall/20230405/000IT00000000_LFmall_logo_black12060.png",
+      "category": "패션·뷰티"
+    },
+    {
+      "id": "lp-yes24-1117862",
+      "title": "둥근 모자걸이 옷장 행거 후크 걸이",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F168530872",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/168530872/xl",
+      "category": "MD’S PICK"
+    },
+    {
+      "id": "lp-yes24-1117863",
       "title": "중학교 국어 2-2 자습서 (강양희 교과서편)",
       "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F192979477",
       "merchant": "yes24",
@@ -50,7 +58,7 @@
       "category": "도서·여행"
     },
     {
-      "id": "lp-yes24-1117769",
+      "id": "lp-yes24-1117865",
       "title": "야옹이 실리콘 코스터 컵받침 5종",
       "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F122661420",
       "merchant": "yes24",
@@ -58,7 +66,7 @@
       "category": "도서·여행"
     },
     {
-      "id": "lp-yes24-1117770",
+      "id": "lp-yes24-1117866",
       "title": "중학교 국어 2-2 평가문제집 (강양희 교과서편)",
       "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F193989231",
       "merchant": "yes24",
@@ -66,11 +74,11 @@
       "category": "도서·여행"
     },
     {
-      "id": "lp-yes24-1117771",
-      "title": "매3비 매일 지문 3개씩 공부하는 비문학 독서 수능 기출 (2026년)",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F167454325",
+      "id": "lp-yes24-1117867",
+      "title": "100발100중 기출문제집 2학기 중간고사 중1 영어 동아 이병민 (2026년용)",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F148477817",
       "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/167454325/xl",
+      "imageUrl": "https://image.yes24.com/goods/148477817/xl",
       "category": "도서·여행"
     }
   ]
