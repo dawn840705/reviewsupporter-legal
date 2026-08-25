@@ -26,12 +26,60 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-himart-1118683",
+      "id": "lp-yes24-1118970",
+      "title": "25시 도깨비 편의점 4",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F195093029",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/195093029/xl",
+      "category": "MD’S PICK"
+    },
+    {
+      "id": "lp-himart-1118968",
       "title": "[서린공식] 에센코어 클레브 DDR5-6000 CL30 CRAS V RGB 블랙 패키지 서린 32GB(16Gx2)",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0023887859",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "category": "가전·디지털"
+      "category": "MD’S PICK"
+    },
+    {
+      "id": "lp-halfclub1-1118964",
+      "title": "26SS ODV 소프트 볼륨 팬츠 3종(옵션:66)",
+      "url": "https://click.linkprice.com/click.php?m=halfclub1&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.halfclub.com%2Fdeal%2F421921027",
+      "merchant": "halfclub1",
+      "imageUrl": "https://img.linkprice.com/files/glink/halfclub1/20260610/6a2913513f6e5_120x60.png",
+      "category": "패션·뷰티"
+    },
+    {
+      "id": "lp-yes24-1118971",
+      "title": "신상문구점",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F153819536",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/153819536/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1118972",
+      "title": "파란노을 - 2집 To See the Next Part of the Dream [마블 화이트 블루 컬러 2LP]",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F195407950",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/195407950/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1118973",
+      "title": "오디세이아",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F145242086",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/145242086/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1118974",
+      "title": "서리꽃 세트",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F195252787",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/195252787/xl",
+      "category": "도서·여행"
     }
   ]
 }
