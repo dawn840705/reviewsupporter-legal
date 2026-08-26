@@ -26,12 +26,20 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-himart-1119320",
+      "id": "lp-himart-1119319",
       "title": "[서린공식] Apacer 노트북 DDR5-5600 CL46 (32GB)",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0058720095",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "category": "MD’S PICK"
+      "category": "가전·디지털"
+    },
+    {
+      "id": "lp-yes24-1119433",
+      "title": "비팬시 수학 연습장 2등분 4등분 (스프링 필기 노트 공책 무지 오답)",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F108042492",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/108042492/xl",
+      "category": "도서·여행"
     },
     {
       "id": "lp-himart-1119321",
@@ -40,6 +48,22 @@
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
       "category": "가전·디지털"
+    },
+    {
+      "id": "lp-yes24-1119435",
+      "title": "스테들러 파스텔 문구 기획 세트",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F133278250",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/133278250/xl",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1119436",
+      "title": "플랫 포켓 스케줄러 (6개월)",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F125294315",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/125294315/xl",
+      "category": "도서·여행"
     }
   ]
 }
