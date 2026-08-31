@@ -26,12 +26,28 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-himart-1123514",
-      "title": "[9월 특가] 크레신 피아톤 900 레거시 플러스 블루투스 헤드폰 900 PHIATON  LEGACY PLUS [900LP]",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0070004129",
+      "id": "lp-lfmall-1123723",
+      "title": "[스테디셀러] 블랙 로고장식 소가죽 반지갑",
+      "url": "https://click.linkprice.com/click.php?m=lfmall&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=https%3A%2F%2Fwww.lfmall.co.kr%2Fproduct.do%3Fcmd%3DgetProductDetail%26PROD_CD%3DWBWA5F509BK",
+      "merchant": "lfmall",
+      "imageUrl": "https://img.linkprice.com/files/glink/lfmall/20230405/000IT00000000_LFmall_logo_black12060.png",
+      "category": "MD’S PICK"
+    },
+    {
+      "id": "lp-himart-1123644",
+      "title": "[서린공식] 팀그룹 T-CREATE 노트북 DDR5-5600 CL46-45-45 CLASSIC 서린 (32GB)",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0024076541",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "category": "MD’S PICK"
+      "category": "가전·디지털"
+    },
+    {
+      "id": "lp-lfmall-1123724",
+      "title": "[스테디셀러] 브라운 로고장식 소가죽 반지갑",
+      "url": "https://click.linkprice.com/click.php?m=lfmall&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=https%3A%2F%2Fwww.lfmall.co.kr%2Fproduct.do%3Fcmd%3DgetProductDetail%26PROD_CD%3DWBWA5F506W3",
+      "merchant": "lfmall",
+      "imageUrl": "https://img.linkprice.com/files/glink/lfmall/20230405/000IT00000000_LFmall_logo_black12060.png",
+      "category": "패션·뷰티"
     }
   ]
 }
