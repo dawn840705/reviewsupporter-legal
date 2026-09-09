@@ -65,6 +65,10 @@
   a.card:active { transform:scale(.99); }
   .card-title { font-size:16px; font-weight:600; color:var(--blue); margin:0 0 3px; }
   .card-desc { font-size:13px; color:var(--muted); margin:0; }
+  .shots { display:flex; gap:12px; margin-top:14px; overflow-x:auto; padding-bottom:6px; -webkit-overflow-scrolling:touch; }
+  .shots figure { margin:0; flex:0 0 auto; width:180px; }
+  .shots img { width:100%; border-radius:12px; border:1px solid var(--line); display:block; background:#fff; }
+  .shots figcaption { font-size:13px; color:var(--muted); margin-top:8px; text-align:center; }
   footer { text-align:center; color:var(--muted); font-size:13px; margin-top:44px; }
   footer a { color:var(--muted); }
 </style>
@@ -95,6 +99,22 @@
     <li><b>AI가 초안을 잡습니다.</b> 그대로 낼 필요는 없습니다. 직접 겪은 걸로 고치면 됩니다.</li>
     <li><b>쇼핑몰 화면에서 등록합니다.</b> 별점과 내용은 채워져 있고, 마지막 등록 버튼은 직접 누릅니다.</li>
   </ol>
+
+  <h2>화면 미리보기</h2>
+  <div class="shots">
+    <figure>
+      <img src="shot/03.png" alt="AI가 잡아둔 리뷰 초안과 말투를 바꾸는 화면" loading="lazy" width="640" height="1385">
+      <figcaption>들어가면 초안이 이미 있습니다</figcaption>
+    </figure>
+    <figure>
+      <img src="shot/04.png" alt="쇼핑몰 리뷰 폼에 내용이 채워진 화면. 등록 버튼은 사용자가 직접 누른다" loading="lazy" width="640" height="1385">
+      <figcaption>등록은 직접 누릅니다</figcaption>
+    </figure>
+    <figure>
+      <img src="shot/05.png" alt="데이터를 기기 안에만 보관한다는 안내 화면" loading="lazy" width="640" height="1385">
+      <figcaption>기록은 이 폰 안에만</figcaption>
+    </figure>
+  </div>
 
   <h2>이건 분명히 해둡니다</h2>
   <div class="honest">
