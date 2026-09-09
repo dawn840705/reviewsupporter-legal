@@ -4,7 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow">
-<title>리뷰를 부탁해 — 약관 및 개인정보처리방침</title>
+<title>리뷰를 부탁해 — 밀린 쇼핑몰 리뷰를 정리하는 앱</title>
+<meta name="description" content="쇼핑몰에 흩어져 있는 '리뷰 안 쓴 주문'을 한곳에 모읍니다. AI가 초안을 잡아주면 고쳐서 등록하면 됩니다. 마지막 등록 버튼은 직접 누릅니다.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="리뷰를 부탁해">
+<meta property="og:description" content="산 건 많은데 리뷰는 못 썼다면. 밀린 리뷰를 한곳에 모아 초안까지 잡아드립니다.">
+<meta property="og:locale" content="ko_KR">
 <style>
   :root { --blue:#2F6BFF; --blue-soft:#EEF3FF; --bg:#F7F9FC; --ink:#1A2233; --muted:#5A6478; --line:#E2E8F4; }
   * { box-sizing:border-box; }
@@ -22,19 +27,45 @@
     width:64px; height:64px; border-radius:16px; background:var(--blue);
     color:#fff; font-size:30px; margin-bottom:14px;
   }
-  h1 { font-size:22px; margin:0 0 6px; }
-  .sub { color:var(--muted); font-size:14px; margin:0; }
-  .cards { display:flex; flex-direction:column; gap:14px; margin-top:32px; }
+  h1 { font-size:26px; margin:0 0 8px; }
+  .sub { color:var(--muted); font-size:15px; margin:0; }
+  .lede { font-size:16px; margin:26px 0 0; }
+
+  .stores { display:flex; flex-direction:column; gap:10px; margin:28px 0 8px; }
+  a.store {
+    display:flex; align-items:center; justify-content:center;
+    background:var(--blue); color:#fff; text-decoration:none;
+    border-radius:12px; padding:15px 20px; font-size:16px; font-weight:600;
+    transition:opacity .15s, transform .1s;
+  }
+  a.store.alt { background:#fff; color:var(--blue); border:1px solid var(--blue); }
+  a.store:hover { opacity:.92; }
+  a.store:active { transform:scale(.99); }
+  .store-note { text-align:center; color:var(--muted); font-size:13px; margin:0; }
+
+  h2 { font-size:18px; margin:40px 0 12px; }
+  ol.steps { margin:0; padding-left:20px; }
+  ol.steps li { margin:10px 0; }
+  ol.steps b { color:var(--blue); }
+
+  .honest { background:#fff; border:1px solid var(--line); border-radius:14px; padding:6px 22px 18px; margin-top:12px; }
+  .honest h3 { font-size:15px; margin:18px 0 4px; }
+  .honest p { font-size:14px; color:var(--muted); margin:0; }
+
+  .malls { font-size:14px; color:var(--muted); }
+  .malls b { color:var(--ink); font-weight:600; }
+
+  .cards { display:flex; flex-direction:column; gap:12px; margin-top:14px; }
   a.card {
     display:block; background:#fff; border:1px solid var(--line); border-radius:14px;
-    padding:20px 22px; text-decoration:none; color:inherit;
+    padding:16px 20px; text-decoration:none; color:inherit;
     transition:border-color .15s, transform .1s;
   }
   a.card:hover { border-color:var(--blue); }
   a.card:active { transform:scale(.99); }
-  .card-title { font-size:17px; font-weight:600; color:var(--blue); margin:0 0 4px; }
-  .card-desc { font-size:14px; color:var(--muted); margin:0; }
-  footer { text-align:center; color:var(--muted); font-size:13px; margin-top:40px; }
+  .card-title { font-size:16px; font-weight:600; color:var(--blue); margin:0 0 3px; }
+  .card-desc { font-size:13px; color:var(--muted); margin:0; }
+  footer { text-align:center; color:var(--muted); font-size:13px; margin-top:44px; }
   footer a { color:var(--muted); }
 </style>
 </head>
@@ -43,9 +74,52 @@
   <header>
     <div class="logo">💬</div>
     <h1>리뷰를 부탁해</h1>
-    <p class="sub">약관 및 개인정보 처리 안내</p>
+    <p class="sub">산 건 많은데 리뷰는 못 썼다면</p>
   </header>
 
+  <p class="lede">
+    쇼핑몰에 흩어져 있는 <b>리뷰 안 쓴 주문</b>을 한곳에 모읍니다.
+    AI가 초안을 잡아주면 마음에 들게 고쳐서 등록하면 됩니다.
+    그동안 깜빡하고 지나친 적립금을 그렇게 챙깁니다.
+  </p>
+
+  <div class="stores">
+    <a class="store" id="ios" href="https://apps.apple.com/kr/app/id6781089353">App Store에서 받기</a>
+    <a class="store alt" id="android" href="https://play.google.com/store/apps/details?id=com.master.reviewmachine">Google Play에서 받기</a>
+  </div>
+  <p class="store-note">무료 · 베타 운영 중</p>
+
+  <h2>어떻게 쓰나요</h2>
+  <ol class="steps">
+    <li><b>쇼핑몰에 로그인합니다.</b> 앱이 리뷰를 안 쓴 주문만 골라 모아옵니다.</li>
+    <li><b>AI가 초안을 잡습니다.</b> 그대로 낼 필요는 없습니다. 직접 겪은 걸로 고치면 됩니다.</li>
+    <li><b>쇼핑몰 화면에서 등록합니다.</b> 별점과 내용은 채워져 있고, 마지막 등록 버튼은 직접 누릅니다.</li>
+  </ol>
+
+  <h2>이건 분명히 해둡니다</h2>
+  <div class="honest">
+    <h3>등록 버튼은 앱이 누르지 않습니다</h3>
+    <p>리뷰 폼을 열어 별점과 내용을 채우는 데까지가 앱이 하는 일입니다.
+       마지막 등록은 직접 누르셔야 하고, 앱은 그 버튼을 대신 누르지 않습니다.</p>
+
+    <h3>리뷰는 고쳐서 냅니다</h3>
+    <p>AI는 초안을 잡을 뿐입니다. 써보지도 않은 말이 들어가면 그건 리뷰가 아니니,
+       실제로 겪은 내용으로 고쳐서 내는 걸 전제로 만들었습니다.</p>
+
+    <h3>데이터는 기기 안에 있습니다</h3>
+    <p>주문 내역과 작성한 리뷰는 폰 안에만 저장됩니다. 서버로 보내지 않습니다.
+       익명 사용 통계는 받지만 리뷰 내용·상품명·개인정보는 여기에 들어가지 않습니다.</p>
+
+    <h3>금액을 부풀리지 않습니다</h3>
+    <p>적립금은 몰과 상품마다 달라서 정확히 계산할 수가 없습니다.
+       그래서 앱은 '리뷰 몇 건을 정리했는지'를 먼저 보여주고, 금액은 예상치로만 적습니다.</p>
+  </div>
+
+  <h2>지금 되는 쇼핑몰</h2>
+  <p class="malls"><b>네이버플러스 스토어</b> · <b>11번가</b>(베타) · <b>롯데온</b>(베타)<br>
+     쓰시는 몰이 없다면 메일로 알려주세요. 수요가 많은 곳부터 붙입니다.</p>
+
+  <h2>약관 · 개인정보</h2>
   <div class="cards">
     <a class="card" href="privacy.html">
       <p class="card-title">개인정보처리방침</p>
@@ -59,8 +133,31 @@
 
   <footer>
     문의 · <a href="mailto:dawn840705@gmail.com">dawn840705@gmail.com</a><br>
-    시행일 2026년 6월 3일
+    약관 시행일 2026년 6월 3일
   </footer>
 </div>
+
+<script>
+  // 어디서 온 방문인지만 스토어로 넘긴다(Play는 referrer를 설치 시점까지 전달한다).
+  //   개인정보는 싣지 않는다 — 출처 라벨 하나뿐이고, 화이트리스트 밖 값은 버린다.
+  (function () {
+    var ALLOWED = ['share', 'community', 'aso'];
+    var from = new URLSearchParams(location.search).get('from') || '';
+    if (ALLOWED.indexOf(from) < 0) return;
+    var a = document.getElementById('android');
+    a.href += '&referrer=' + encodeURIComponent('utm_source=' + from + '&utm_medium=landing');
+  })();
+
+  // 안드로이드 폰에서 열었으면 Play를 위로 — 엉뚱한 스토어를 먼저 누르는 일을 막는다.
+  (function () {
+    if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) return;
+    var box = document.querySelector('.stores');
+    var ios = document.getElementById('ios');
+    var and = document.getElementById('android');
+    box.insertBefore(and, ios);
+    and.className = 'store';
+    ios.className = 'store alt';
+  })();
+</script>
 </body>
 </html>
