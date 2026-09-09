@@ -105,6 +105,33 @@ def fetch_hotdeal():
     return data
 
 
+def price_subtitle(p):
+    """부제 = 가격(2026-09-09 대책회의 A4/R3). 핫딜 API의 normal_price·discount_price 사용.
+
+    왜 카테고리가 아니라 가격인가: category는 머천트 기준이라 상품과 어긋난다(냉동볶음밥에 '패션·뷰티').
+    가격은 그 상품 자체의 사실이라 어긋날 수 없고, 카드가 무엇인지 판단할 정보를 준다.
+
+    ⚠️ 값이 조금이라도 수상하면 부제를 생략한다(빈 문자열). 틀린 가격을 보여주느니 안 보여주는 게 낫다 —
+    이 앱은 '금액 과장 금지'가 제품 레드라인이다. 피드는 6시간마다 갱신되므로 그 사이 실제 가격이
+    바뀔 수 있다는 점도 감안해, 할인율처럼 더 크게 보이는 표기는 쓰지 않는다.
+    """
+    def num(v):
+        try:
+            n = int(str(v).strip())
+        except (TypeError, ValueError):
+            return 0
+        # 1원 미만·1억 초과는 이상값으로 보고 버린다(파싱 오류·단위 오류 방어).
+        return n if 0 < n <= 100000000 else 0
+
+    normal, sale = num(p.get("normal_price")), num(p.get("discount_price"))
+    price = sale if 0 < sale <= normal or (sale and not normal) else normal
+    if not price:
+        return ""
+    if (p.get("currency") or "KRW").strip().upper() != "KRW":
+        return ""  # 원화가 아니면 표기 안 함(환산 추정 금지)
+    return "{:,}원".format(price)
+
+
 def build_auto_offers(products, slots):
     """핫딜 상품 → 자동 오퍼. dedup·정크명·블록 필터, 최대 slots개."""
     offers = []
@@ -128,8 +155,8 @@ def build_auto_offers(products, slots):
         if not (isinstance(img, str) and img.startswith("http")):
             continue
         seen_url.add(click)
-        # subtitle(표시)은 생략 — category가 머천트 기준이라 상품과 어긋남(예: wconcept 냉동볶음밥에 '패션·뷰티').
-        # 단 category는 별도 필드로 실어 보낸다 → 앱 온디바이스 맞춤정렬에 사용(표시 X, 정렬 O).
+        # subtitle = 가격(2026-09-09 A4). category는 머천트 기준이라 상품과 어긋나 표시엔 안 쓰고,
+        # 별도 필드로만 실어 보낸다 → 앱 온디바이스 맞춤정렬에 사용(표시 X, 정렬 O).
         offer = {
             "id": "lp-%s-%s" % (mid, (p.get("product_code") or len(offers))),
             "title": name,
@@ -137,6 +164,9 @@ def build_auto_offers(products, slots):
             "merchant": mid,
             "imageUrl": img,
         }
+        sub = price_subtitle(p)
+        if sub:
+            offer["subtitle"] = sub
         cat = (p.get("category") or "").strip()
         if cat:
             offer["category"] = cat
