@@ -26,16 +26,7 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-lfmall-1132111",
-      "title": "[라코스테 공식] 남성 히든 플라켓 카라 스?셔츠 SH5887-55N SKB",
-      "url": "https://click.linkprice.com/click.php?m=lfmall&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=https%3A%2F%2Fwww.lfmall.co.kr%2Fproduct.do%3Fcmd%3DgetProductDetail%26PROD_CD%3DF72LXX00713",
-      "merchant": "lfmall",
-      "imageUrl": "https://img.linkprice.com/files/glink/lfmall/20230405/000IT00000000_LFmall_logo_black12060.png",
-      "subtitle": "87,600원",
-      "category": "패션·뷰티"
-    },
-    {
-      "id": "lp-himart-1132113",
+      "id": "lp-himart-1132160",
       "title": "[혜택가 53만원대]  LG 코드제로 A7 Core 흡입전용 카밍베이지 A720WA",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0041825444",
       "merchant": "himart",
@@ -44,30 +35,21 @@
       "category": "가전·디지털"
     },
     {
-      "id": "lp-himart-1132115",
-      "title": "[~10/20 사전예약 무선 줄넘기 특전 증정]SWITCH2 닌텐도 스위치 스포츠 리조트",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0070802952",
-      "merchant": "himart",
-      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "subtitle": "68,000원",
-      "category": "가전·디지털"
-    },
-    {
-      "id": "lp-yes24-1132119",
-      "title": "라이프앤피시스 빈티지샤프 0.5mm",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F124532344",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/124532344/xl",
-      "subtitle": "4,000원",
-      "category": "도서·여행"
-    },
-    {
-      "id": "lp-himart-1132116",
+      "id": "lp-himart-1132162",
       "title": "[9월1주차 이후 배송] 일반세탁기 TR13WV4 (13kg, 인버터모터, 위생세탁, 화이트)",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0062975581",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
       "subtitle": "368,940원",
+      "category": "가전·디지털"
+    },
+    {
+      "id": "lp-himart-1132163",
+      "title": "[~10/20 사전예약 무선 줄넘기 특전 증정]SWITCH2 닌텐도 스위치 스포츠 리조트",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0070802952",
+      "merchant": "himart",
+      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
+      "subtitle": "6,620원",
       "category": "가전·디지털"
     }
   ]
