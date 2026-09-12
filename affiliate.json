@@ -26,22 +26,58 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-himart-1132790",
-      "title": "하이메이드 길이조절 스마트커튼 HSCT-GC02",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0034298808",
+      "id": "lp-himart-1133038",
+      "title": "아이폰 18 프로 자급제 256GB - 실버",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0070922393",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "subtitle": "20,000원",
+      "subtitle": "1,990,000원",
+      "category": "MD’S PICK"
+    },
+    {
+      "id": "lp-himart-1133039",
+      "title": "아이폰 18 프로 자급제 256GB - 블랙",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0070922392",
+      "merchant": "himart",
+      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
+      "subtitle": "1,084,750원",
       "category": "가전·디지털"
     },
     {
-      "id": "lp-yes24-1132829",
-      "title": "예스24 온라인 통합상품권 5만원권",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F127974163",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/127974163/xl",
-      "subtitle": "50,000원",
-      "category": "도서·여행"
+      "id": "lp-himart-1133040",
+      "title": "아이폰 18 프로 자급제 512GB - 실버",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0070922397",
+      "merchant": "himart",
+      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
+      "subtitle": "1,234,750원",
+      "category": "가전·디지털"
+    },
+    {
+      "id": "lp-himart-1133041",
+      "title": "아이폰 18 프로 자급제 512GB - 블랙",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0070922396",
+      "merchant": "himart",
+      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
+      "subtitle": "1,225,775원",
+      "category": "가전·디지털"
+    },
+    {
+      "id": "lp-himart-1133042",
+      "title": "아이폰 18 프로 맥스 자급제 256GB - 실버",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0070922417",
+      "merchant": "himart",
+      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
+      "subtitle": "1,114,750원",
+      "category": "가전·디지털"
+    },
+    {
+      "id": "lp-himart-1133043",
+      "title": "아이폰 18 프로 자급제 256GB - 글레이셔",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0070922395",
+      "merchant": "himart",
+      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
+      "subtitle": "736,333원",
+      "category": "가전·디지털"
     }
   ]
 }
