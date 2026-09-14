@@ -33,6 +33,33 @@
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
       "subtitle": "2,290,000원",
       "category": "가전·디지털"
+    },
+    {
+      "id": "lp-yes24-1134124",
+      "title": "핸즈온 LLM",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F146828240",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/146828240/xl",
+      "subtitle": "34,200원",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1134125",
+      "title": "[알앤비]에버그린 에센티 브라이트,소프트 형광펜/총18칼라/모나미",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F4315827",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/4315827/xl",
+      "subtitle": "560원",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1134126",
+      "title": "인덱스 마그네틱 북마크",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F107977451",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/107977451/xl",
+      "subtitle": "1,500원",
+      "category": "도서·여행"
     }
   ]
 }
