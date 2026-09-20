@@ -26,15 +26,6 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-yes24-1139037",
-      "title": "고세구 - The 1st Single Album [NO CAT, NO LIFE!]",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F196573701",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/196573701/xl",
-      "subtitle": "20,000원",
-      "category": "MD’S PICK"
-    },
-    {
       "id": "lp-himart-1138097",
       "title": "Intel 14400F RTX5060Ti 8GB +32GB+1TB 조립PC 게이밍컴퓨터",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0063604296",
@@ -42,6 +33,15 @@
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
       "subtitle": "1,469,900원",
       "category": "가전·디지털"
+    },
+    {
+      "id": "lp-yes24-1139356",
+      "title": "고세구 - The 1st Single Album [NO CAT, NO LIFE!]",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F196573701",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/196573701/xl",
+      "subtitle": "20,000원",
+      "category": "도서·여행"
     }
   ]
 }
