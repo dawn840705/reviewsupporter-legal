@@ -26,49 +26,40 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-himart-1140532",
-      "title": "PS5 아스트로봇",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0021945181",
+      "id": "lp-himart-1140855",
+      "title": "소니 렌즈교환식 브이로그카메라 ZV-E10K",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0057032536",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "subtitle": "39,800원",
+      "subtitle": "739,070원",
       "category": "MD’S PICK"
     },
     {
-      "id": "lp-himart-1140533",
-      "title": "[포토리뷰1+3+2만] ASUS DUAL 지포스 RTX 5060 TI OC D7 8GB 인텍앤컴퍼니",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0054371398",
+      "id": "lp-yes24-1140860",
+      "title": "바람과 함께 사라지다 (3Disc, 4K UHD + BD 스틸북 한정판) : 블루레이",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F196789691",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/196789691/xl",
+      "subtitle": "53,500원",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-himart-1140856",
+      "title": "[정품]SONY 올인원 브이로그 카메라 ZV-1M2[블랙/화이트]",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0020657919",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "subtitle": "696,470원",
+      "subtitle": "889,730원",
       "category": "가전·디지털"
     },
     {
-      "id": "lp-yes24-1140537",
-      "title": "니체의 초월자",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F161401496",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/161401496/xl",
-      "subtitle": "15,210원",
-      "category": "도서·여행"
-    },
-    {
-      "id": "lp-yes24-1140538",
-      "title": "독서의 기술",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F192555379",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/192555379/xl",
-      "subtitle": "17,820원",
-      "category": "도서·여행"
-    },
-    {
-      "id": "lp-yes24-1140539",
-      "title": "오발 OVAL 테쵸 수정테이프 (미색)",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F183187543",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/183187543/xl",
-      "subtitle": "1,800원",
-      "category": "도서·여행"
+      "id": "lp-himart-1140857",
+      "title": "닌텐도 스위치2 (SWITCH2) 본체",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0064998698",
+      "merchant": "himart",
+      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
+      "subtitle": "720,100원",
+      "category": "가전·디지털"
     }
   ]
 }
