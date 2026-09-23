@@ -26,49 +26,31 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-yes24-1141444",
-      "title": "NiziU (니쥬) - 미니앨범 1집 : Sour Grapes [Mini Pack PLVE ver.]",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F196110891",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/196110891/xl",
-      "subtitle": "12,600원",
-      "category": "MD’S PICK"
-    },
-    {
-      "id": "lp-himart-1141441",
+      "id": "lp-himart-1141521",
       "title": "에어팟 프로 (3세대, USB-C) - [MFHP4KH/A]",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0053433482",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
       "subtitle": "288,560원",
+      "category": "가전·디지털"
+    },
+    {
+      "id": "lp-yes24-1141554",
+      "title": "2026 하반기 렛유인 SKCT FINAL 봉투모의고사",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F196183940",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/196183940/xl",
+      "subtitle": "15,300원",
       "category": "MD’S PICK"
     },
     {
-      "id": "lp-yes24-1141445",
-      "title": "히위고 포켓지도 프라하",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F196909305",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/196909305/xl",
-      "subtitle": "100원",
-      "category": "도서·여행"
-    },
-    {
-      "id": "lp-himart-1141442",
+      "id": "lp-himart-1141523",
       "title": "씨넥스PC 인텔 14400F RTX5060Ti 32G 1TB 게이밍 완본체 CY144F56Ti32G1T_260923",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0068159820",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
       "subtitle": "1,449,680원",
       "category": "가전·디지털"
-    },
-    {
-      "id": "lp-yes24-1141446",
-      "title": "고세구 - The 1st Single Album [NO CAT, NO LIFE!]",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F196573701",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/196573701/xl",
-      "subtitle": "20,000원",
-      "category": "도서·여행"
     }
   ]
 }
