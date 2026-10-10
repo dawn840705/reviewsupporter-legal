@@ -26,7 +26,7 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-himart-1147957",
+      "id": "lp-himart-1147987",
       "title": "[~11/03 사전예약 키링특전 증정] SWITCH2 젤다의 전설 시간의 오카리나(키링증정)",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0072113599",
       "merchant": "himart",
@@ -35,22 +35,13 @@
       "category": "가전·디지털"
     },
     {
-      "id": "lp-yes24-1147959",
-      "title": "스토리텔링 셔틀",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F197652207",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/197652207/xl",
-      "subtitle": "13,500원",
-      "category": "도서·여행"
-    },
-    {
-      "id": "lp-yes24-1147961",
-      "title": "제브라 ZEBRA 사라사클립 젤볼펜 0.3/0.7mm",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F183187591",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/183187591/xl",
-      "subtitle": "1,500원",
-      "category": "도서·여행"
+      "id": "lp-lfmall-1148004",
+      "title": "워시드 에센셜 후드 티셔츠 차콜 그레이",
+      "url": "https://click.linkprice.com/click.php?m=lfmall&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=https%3A%2F%2Fwww.lfmall.co.kr%2Fproduct.do%3Fcmd%3DgetProductDetail%26PROD_CD%3DIETS5F202CG",
+      "merchant": "lfmall",
+      "imageUrl": "https://img.linkprice.com/files/glink/lfmall/20230405/000IT00000000_LFmall_logo_black12060.png",
+      "subtitle": "34,600원",
+      "category": "패션·뷰티"
     }
   ]
 }
