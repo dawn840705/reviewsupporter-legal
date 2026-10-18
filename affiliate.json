@@ -26,13 +26,40 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-himart-1149760",
-      "title": "[일부지역 배송지연]나인픽 휴대용 무선청소기 EL-NHVC1",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0072160689",
+      "id": "lp-himart-1149893",
+      "title": "에어팟 4세대 - [MXP63KH/A]",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0026701325",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "subtitle": "9,900원",
-      "category": "가전·디지털"
+      "subtitle": "131,340원",
+      "category": "MD’S PICK"
+    },
+    {
+      "id": "lp-yes24-1149896",
+      "title": "RESCENE (리센느) - 미니앨범 4집 : PULSE [Limited ver.]",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F198002637",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/198002637/xl",
+      "subtitle": "26,000원",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1149898",
+      "title": "가짜 돈 진짜 부",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F197772287",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/197772287/xl",
+      "subtitle": "22,500원",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1149900",
+      "title": "RESCENE (리센느) - 미니앨범 4집 : PULSE [Standard ver.]",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F198002369",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/198002369/xl",
+      "subtitle": "20,800원",
+      "category": "도서·여행"
     }
   ]
 }
