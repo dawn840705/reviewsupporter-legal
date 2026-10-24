@@ -26,31 +26,40 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-himart-1151485",
+      "id": "lp-himart-1151507",
       "title": "PS5 콜오브듀티 모던워페어4",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0072550351",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
       "subtitle": "88,900원",
-      "category": "가전·디지털"
+      "category": "MD’S PICK"
     },
     {
-      "id": "lp-yes24-1151487",
-      "title": "RESCENE (리센느) - 미니앨범 4집 : PULSE [Guardian ver.]",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F199251572",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/199251572/xl",
-      "subtitle": "44,600원",
-      "category": "도서·여행"
+      "id": "lp-halfclub1-1151502",
+      "title": "[하프단독가] [피스워커] 남성 에센셜 블루 진 / 세미 와이드 (FPQWDDW691M-W)(옵션:32)",
+      "url": "https://click.linkprice.com/click.php?m=halfclub1&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.halfclub.com%2Fdeal%2F435341904",
+      "merchant": "halfclub1",
+      "imageUrl": "https://img.linkprice.com/files/glink/halfclub1/20260610/6a2913513f6e5_120x60.png",
+      "subtitle": "11,130원",
+      "category": "패션·뷰티"
     },
     {
-      "id": "lp-yes24-1151489",
-      "title": "RESCENE (리센느) - 미니앨범 4집 : PULSE [Standard ver.]",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F198002369",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/198002369/xl",
-      "subtitle": "20,800원",
-      "category": "도서·여행"
+      "id": "lp-halfclub1-1151504",
+      "title": "[하프단독가] [피스워커] 남성 블랙 스톰 / 세미 와이드 (FPQFDDW675M-W)(옵션:32)",
+      "url": "https://click.linkprice.com/click.php?m=halfclub1&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.halfclub.com%2Fdeal%2F435341638",
+      "merchant": "halfclub1",
+      "imageUrl": "https://img.linkprice.com/files/glink/halfclub1/20260610/6a2913513f6e5_120x60.png",
+      "subtitle": "12,530원",
+      "category": "패션·뷰티"
+    },
+    {
+      "id": "lp-halfclub1-1151505",
+      "title": "[하프단독가] [피스워커] 남성 블루이시 미디엄 블루 / 뉴 스탠다드 (PBSMDPA031-W)(옵션:32)",
+      "url": "https://click.linkprice.com/click.php?m=halfclub1&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.halfclub.com%2Fdeal%2F435949510",
+      "merchant": "halfclub1",
+      "imageUrl": "https://img.linkprice.com/files/glink/halfclub1/20260610/6a2913513f6e5_120x60.png",
+      "subtitle": "12,530원",
+      "category": "패션·뷰티"
     }
   ]
 }
