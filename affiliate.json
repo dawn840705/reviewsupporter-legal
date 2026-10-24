@@ -26,13 +26,40 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-himart-1151285",
+      "id": "lp-himart-1151284",
       "title": "오브제컬렉션 모던엣지 Fit&Max 냉장고 Q336MQQ133 [333L]",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0071618769",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
       "subtitle": "679,150원",
-      "category": "MD’S PICK"
+      "category": "가전·디지털"
+    },
+    {
+      "id": "lp-yes24-1151306",
+      "title": "코믹 블루록 37 한정판",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F197965469",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/197965469/xl",
+      "subtitle": "40,500원",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1151307",
+      "title": "2027 이해원 모의고사 시즌4 3회분 (2026년)",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F197670511",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/197670511/xl",
+      "subtitle": "33,000원",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1151308",
+      "title": "RESCENE (리센느) - 미니앨범 4집 : PULSE [Guardian ver.]",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F199251572",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/199251572/xl",
+      "subtitle": "44,600원",
+      "category": "도서·여행"
     }
   ]
 }
