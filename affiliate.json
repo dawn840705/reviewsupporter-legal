@@ -26,48 +26,39 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-lfmall-1152299",
+      "id": "lp-lfmall-1152322",
       "title": "[LIVE 특가] [26FW] 플리스 블랭킷 7 color 3 size",
       "url": "https://click.linkprice.com/click.php?m=lfmall&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=https%3A%2F%2Fwww.lfmall.co.kr%2Fproduct.do%3Fcmd%3DgetProductDetail%26PROD_CD%3DE8ZZXX00296",
       "merchant": "lfmall",
       "imageUrl": "https://img.linkprice.com/files/glink/lfmall/20230405/000IT00000000_LFmall_logo_black12060.png",
-      "subtitle": "18,050원",
+      "subtitle": "25,240원",
       "category": "패션·뷰티"
     },
     {
-      "id": "lp-himart-1152303",
-      "title": "[PEIKOREA] MSI RTX 5060 벤투스 2X OC V1 D7 8GB",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0067133982",
+      "id": "lp-yes24-1152327",
+      "title": "RESCENE (리센느) - 미니앨범 4집 : PULSE [Guardian ver.]",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F199251572",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/199251572/xl",
+      "subtitle": "44,600원",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-himart-1152335",
+      "title": "Ledger Nano S 레저나노S 하드웨어 지갑 LEDGER_NANO_S",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0028319972",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "subtitle": "646,865원",
+      "subtitle": "3,470원",
       "category": "가전·디지털"
     },
     {
-      "id": "lp-himart-1152305",
-      "title": "[11월 초 입고] [시크릿코드] EDIFIER T5S 서브우퍼 70W 고출력 8인치 중저음 액티브 스피커",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0066969365",
+      "id": "lp-himart-1152337",
+      "title": "BELKIN-부스트업 20W 듀얼 무선 충전 패드 (화이트) BELKIN-WIZ002KRWH",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0029855304",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "subtitle": "139,000원",
-      "category": "가전·디지털"
-    },
-    {
-      "id": "lp-himart-1152306",
-      "title": "Bambu Lab 뱀부랩 X2D Combo 3D 프린터",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0072675324",
-      "merchant": "himart",
-      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "subtitle": "1,043,100원",
-      "category": "가전·디지털"
-    },
-    {
-      "id": "lp-himart-1152307",
-      "title": "더블에이 A4용지 80g 2박스(5000매) Double A",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0014322326",
-      "merchant": "himart",
-      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "subtitle": "45,500원",
+      "subtitle": "14,000원",
       "category": "가전·디지털"
     }
   ]
