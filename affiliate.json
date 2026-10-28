@@ -26,7 +26,7 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-lfmall-1152322",
+      "id": "lp-lfmall-1152388",
       "title": "[LIVE 특가] [26FW] 플리스 블랭킷 7 color 3 size",
       "url": "https://click.linkprice.com/click.php?m=lfmall&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=https%3A%2F%2Fwww.lfmall.co.kr%2Fproduct.do%3Fcmd%3DgetProductDetail%26PROD_CD%3DE8ZZXX00296",
       "merchant": "lfmall",
@@ -35,31 +35,40 @@
       "category": "패션·뷰티"
     },
     {
-      "id": "lp-yes24-1152327",
-      "title": "RESCENE (리센느) - 미니앨범 4집 : PULSE [Guardian ver.]",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F199251572",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/199251572/xl",
-      "subtitle": "44,600원",
-      "category": "도서·여행"
-    },
-    {
-      "id": "lp-himart-1152335",
+      "id": "lp-himart-1152392",
       "title": "Ledger Nano S 레저나노S 하드웨어 지갑 LEDGER_NANO_S",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0028319972",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "subtitle": "3,470원",
+      "subtitle": "3,990원",
       "category": "가전·디지털"
     },
     {
-      "id": "lp-himart-1152337",
+      "id": "lp-himart-1152394",
       "title": "BELKIN-부스트업 20W 듀얼 무선 충전 패드 (화이트) BELKIN-WIZ002KRWH",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0029855304",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
       "subtitle": "14,000원",
       "category": "가전·디지털"
+    },
+    {
+      "id": "lp-himart-1152395",
+      "title": "[이엠텍 공식인증점][PEIKOREA] PALIT 지포스 RTX 5070 Infinity 3 D7 12GB 이엠텍",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0042613052",
+      "merchant": "himart",
+      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
+      "subtitle": "1,274,670원",
+      "category": "가전·디지털"
+    },
+    {
+      "id": "lp-yes24-1152399",
+      "title": "제브라 마일드라이너 형광펜 5색 세트",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F18859570",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/18859570/xl",
+      "subtitle": "5,100원",
+      "category": "도서·여행"
     }
   ]
 }
