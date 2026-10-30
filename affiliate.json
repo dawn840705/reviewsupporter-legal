@@ -26,39 +26,30 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-yes24-1153114",
-      "title": "엑스러브 (XLOV) - 미니앨범 3집 : i=! [SPECIAL PACK]",
-      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F199637338",
-      "merchant": "yes24",
-      "imageUrl": "https://image.yes24.com/goods/199637338/xl",
-      "subtitle": "35,000원",
-      "category": "MD’S PICK"
-    },
-    {
-      "id": "lp-himart-1153111",
+      "id": "lp-himart-1153141",
       "title": "[서린공식] 팀그룹 T-CREATE DDR5-6400 CL34 EXPERT 블랙 패키지 64GB(32Gx2)",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0051031911",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
       "subtitle": "1,683,990원",
-      "category": "MD’S PICK"
-    },
-    {
-      "id": "lp-himart-1153112",
-      "title": "[하이마트단독특가] Anker 나노 22.5W 고속 충전 미니 도킹형 보조배터리 5000mAh 블랙 A1653",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0071687215",
-      "merchant": "himart",
-      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "subtitle": "21,660원",
       "category": "가전·디지털"
     },
     {
-      "id": "lp-lfmall-1153109",
-      "title": "[LIVE 특가] [26FW] 플리스 블랭킷 7 color 3 size",
+      "id": "lp-himart-1153143",
+      "title": "[~11/3 사전예약] SWITCH2 호리 일렉트릭 시간의 오카리나",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0073494530",
+      "merchant": "himart",
+      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
+      "subtitle": "79,800원",
+      "category": "가전·디지털"
+    },
+    {
+      "id": "lp-lfmall-1153151",
+      "title": "[26FW] 플리스 블랭킷 7 color 3 size",
       "url": "https://click.linkprice.com/click.php?m=lfmall&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=https%3A%2F%2Fwww.lfmall.co.kr%2Fproduct.do%3Fcmd%3DgetProductDetail%26PROD_CD%3DE8ZZXX00296",
       "merchant": "lfmall",
       "imageUrl": "https://img.linkprice.com/files/glink/lfmall/20230405/000IT00000000_LFmall_logo_black12060.png",
-      "subtitle": "33,660원",
+      "subtitle": "29,320원",
       "category": "패션·뷰티"
     }
   ]
