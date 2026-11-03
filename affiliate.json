@@ -26,22 +26,40 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-halfclub1-1153945",
-      "title": "조선호텔 한우 불고기  300g x 6팩(옵션:단일상품)",
-      "url": "https://click.linkprice.com/click.php?m=halfclub1&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.halfclub.com%2Fdeal%2F423494605",
-      "merchant": "halfclub1",
-      "imageUrl": "https://img.linkprice.com/files/glink/halfclub1/20260610/6a2913513f6e5_120x60.png",
-      "subtitle": "61,850원",
-      "category": "패션·뷰티"
-    },
-    {
-      "id": "lp-himart-1153953",
+      "id": "lp-himart-1153971",
       "title": "DJI 오즈모 모바일 6 콤보 (플래티넘 그레이) DJI-OSMOMOBILE6-COMBO(PG)",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0061545945",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "subtitle": "29,000원",
-      "category": "MD’S PICK"
+      "subtitle": "26,890원",
+      "category": "가전·디지털"
+    },
+    {
+      "id": "lp-himart-1153973",
+      "title": "[GPU Holder Kit 증정][PEIKOREA] MSI 지포스 RTX 5080 뱅가드 SOC D7 16GB 하이퍼프로져",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0038007276",
+      "merchant": "himart",
+      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
+      "subtitle": "3,099,000원",
+      "category": "가전·디지털"
+    },
+    {
+      "id": "lp-himart-1153974",
+      "title": "더블에이 A4용지 80g 2박스(5000매) Double A",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0014322326",
+      "merchant": "himart",
+      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
+      "subtitle": "45,500원",
+      "category": "가전·디지털"
+    },
+    {
+      "id": "lp-himart-1153975",
+      "title": "필립스 무선 헤드폰 TAH2209",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0073427678",
+      "merchant": "himart",
+      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
+      "subtitle": "19,900원",
+      "category": "가전·디지털"
     }
   ]
 }
