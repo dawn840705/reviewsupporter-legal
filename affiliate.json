@@ -26,40 +26,31 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-himart-1154232",
-      "title": "PS5 드래곤즈도그마2",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0021390842",
-      "merchant": "himart",
-      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "subtitle": "19,800원",
-      "category": "MD’S PICK"
+      "id": "lp-halfclub1-1154282",
+      "title": "[종가][종가] 아삭한포기김치 4.4kg(옵션:단일상품)",
+      "url": "https://click.linkprice.com/click.php?m=halfclub1&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.halfclub.com%2Fdeal%2F392139027",
+      "merchant": "halfclub1",
+      "imageUrl": "https://img.linkprice.com/files/glink/halfclub1/20260610/6a2913513f6e5_120x60.png",
+      "subtitle": "29,170원",
+      "category": "패션·뷰티"
     },
     {
-      "id": "lp-himart-1154233",
-      "title": "SWITCH2 브레이블리디폴트FLYING FAIRY HD Remaster POT-P-AAC4A",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0061918838",
-      "merchant": "himart",
-      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "subtitle": "22,800원",
-      "category": "가전·디지털"
-    },
-    {
-      "id": "lp-himart-1154234",
-      "title": "닌텐도 SWITCH 모여봐요동물의숲해피홈파라다이스 HAC-J-ACBAA011-KOR",
-      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0067010233",
-      "merchant": "himart",
-      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
-      "subtitle": "9,900원",
-      "category": "가전·디지털"
-    },
-    {
-      "id": "lp-himart-1154235",
+      "id": "lp-himart-1154285",
       "title": "필립스 무선 헤드폰 TAH2209 [한정수량/공지확인]",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0073427678",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
       "subtitle": "19,900원",
       "category": "가전·디지털"
+    },
+    {
+      "id": "lp-lfmall-1154284",
+      "title": "[LIVE 특가] [라코스테 공식] 남성 3 IN 1 다운 코트 BH103E-55N L7A",
+      "url": "https://click.linkprice.com/click.php?m=lfmall&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=https%3A%2F%2Fwww.lfmall.co.kr%2Fproduct.do%3Fcmd%3DgetProductDetail%26PROD_CD%3DF72LXX00005",
+      "merchant": "lfmall",
+      "imageUrl": "https://img.linkprice.com/files/glink/lfmall/20230405/000IT00000000_LFmall_logo_black12060.png",
+      "subtitle": "340,320원",
+      "category": "패션·뷰티"
     }
   ]
 }
