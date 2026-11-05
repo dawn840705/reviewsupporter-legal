@@ -26,31 +26,67 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-halfclub1-1154282",
-      "title": "[종가][종가] 아삭한포기김치 4.4kg(옵션:단일상품)",
-      "url": "https://click.linkprice.com/click.php?m=halfclub1&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.halfclub.com%2Fdeal%2F392139027",
-      "merchant": "halfclub1",
-      "imageUrl": "https://img.linkprice.com/files/glink/halfclub1/20260610/6a2913513f6e5_120x60.png",
-      "subtitle": "29,170원",
-      "category": "패션·뷰티"
+      "id": "lp-yes24-1154345",
+      "title": "제브라 마일드라이너 형광펜",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F18859568",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/18859568/xl",
+      "subtitle": "1,030원",
+      "category": "도서·여행"
     },
     {
-      "id": "lp-himart-1154285",
+      "id": "lp-himart-1154342",
       "title": "필립스 무선 헤드폰 TAH2209 [한정수량/공지확인]",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0073427678",
       "merchant": "himart",
       "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
       "subtitle": "19,900원",
+      "category": "MD’S PICK"
+    },
+    {
+      "id": "lp-himart-1154343",
+      "title": "일반세탁기 TR13WV4 (13kg, 인버터모터, 위생세탁, 화이트)",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0062975581",
+      "merchant": "himart",
+      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
+      "subtitle": "360,340원",
       "category": "가전·디지털"
     },
     {
-      "id": "lp-lfmall-1154284",
-      "title": "[LIVE 특가] [라코스테 공식] 남성 3 IN 1 다운 코트 BH103E-55N L7A",
-      "url": "https://click.linkprice.com/click.php?m=lfmall&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=https%3A%2F%2Fwww.lfmall.co.kr%2Fproduct.do%3Fcmd%3DgetProductDetail%26PROD_CD%3DF72LXX00005",
-      "merchant": "lfmall",
-      "imageUrl": "https://img.linkprice.com/files/glink/lfmall/20230405/000IT00000000_LFmall_logo_black12060.png",
-      "subtitle": "340,320원",
-      "category": "패션·뷰티"
+      "id": "lp-himart-1154344",
+      "title": "PS5 드래곤즈도그마2",
+      "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0021390842",
+      "merchant": "himart",
+      "imageUrl": "https://img.linkprice.com/files/glink/himart/20230907/64f9544a12ff6_120x60.png",
+      "subtitle": "19,800원",
+      "category": "가전·디지털"
+    },
+    {
+      "id": "lp-yes24-1154348",
+      "title": "RESCENE (리센느) - 미니앨범 4집 : PULSE [Limited ver.]",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F198002637",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/198002637/xl",
+      "subtitle": "26,000원",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1154349",
+      "title": "옥스브리지의 철학 수업",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F195225852",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/195225852/xl",
+      "subtitle": "25,200원",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1154350",
+      "title": "프로젝트 헤일메리",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F101375755",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/101375755/xl",
+      "subtitle": "19,800원",
+      "category": "도서·여행"
     }
   ]
 }
