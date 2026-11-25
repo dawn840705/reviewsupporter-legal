@@ -26,7 +26,7 @@
       "merchant": "yanolja"
     },
     {
-      "id": "lp-himart-1158785",
+      "id": "lp-himart-1158836",
       "title": "나인픽 휴대용 무선청소기 EL-NHVC1",
       "url": "https://click.linkprice.com/click.php?m=himart&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.e-himart.co.kr%2Fapp%2Fgoods%2FgoodsDetail%3FgoodsNo%3D0072160689",
       "merchant": "himart",
@@ -35,13 +35,31 @@
       "category": "가전·디지털"
     },
     {
-      "id": "lp-lfmall-1158805",
-      "title": "[영국원단]해리스트위드 램스울 코만도 스웨터 (오렌지)_0KTWD02GSO",
-      "url": "https://click.linkprice.com/click.php?m=lfmall&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=https%3A%2F%2Fwww.lfmall.co.kr%2Fproduct.do%3Fcmd%3DgetProductDetail%26PROD_CD%3DEJ3VXX00199",
-      "merchant": "lfmall",
-      "imageUrl": "https://img.linkprice.com/files/glink/lfmall/20230405/000IT00000000_LFmall_logo_black12060.png",
-      "subtitle": "39,920원",
-      "category": "패션·뷰티"
+      "id": "lp-yes24-1158859",
+      "title": "(2027 날짜형) 위클리 플래너 2027 A5_주간 다이어리 스케쥴러",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F195932871",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/195932871/xl",
+      "subtitle": "16,020원",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1158860",
+      "title": "서늘한 대화",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F197648352",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/197648352/xl",
+      "subtitle": "19,800원",
+      "category": "도서·여행"
+    },
+    {
+      "id": "lp-yes24-1158863",
+      "title": "안녕이라 그랬어",
+      "url": "https://click.linkprice.com/click.php?m=yes24&a=A100705176&l=9999&l_cd1=S&l_cd2=H&tu=http%3A%2F%2Fwww.yes24.com%2FProduct%2FGoods%2F147560984",
+      "merchant": "yes24",
+      "imageUrl": "https://image.yes24.com/goods/147560984/xl",
+      "subtitle": "15,120원",
+      "category": "도서·여행"
     }
   ]
 }
